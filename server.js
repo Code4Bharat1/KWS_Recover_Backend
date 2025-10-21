@@ -8,7 +8,9 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin : ["http://localhost:5173","https://api-kws.code4bharat.com"],
+}));
 app.use(express.json());
 app.use("/public", express.static("public"));
 
