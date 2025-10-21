@@ -1,0 +1,32 @@
+{
+  "name": "kws_recover_backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000K\u0000W\u0000S\u0000_\u0000R\u0000e\u0000c\u0000o\u0000v\u0000e\u0000r\u0000_\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code4Bharat1/KWS_Recover_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Code4Bharat1/KWS_Recover_Backend/issues"
+  },
+  "homepage": "https://github.com/Code4Bharat1/KWS_Recover_Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^164.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "open": "^10.2.0"
+  }
+}
